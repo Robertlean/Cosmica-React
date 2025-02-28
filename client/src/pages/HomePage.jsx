@@ -1,22 +1,20 @@
 import { Link } from "react-router-dom"
 export default function HomePage() {
   return (
-    <div className="bodybg">
+    <>
       <section className="hero">
         <div className="container">
           <div className="row">
             <div className="col-12 offset-md-1 col-md-11">
               <div className="swiper-container hero-slider">
-                <div>
-                  <div className="swiper-slide slide-content d-flex align-items-center">
-                    <div className="single-slide">
-                      <h1 data-aos="fade-right" data-aos-delay="200">Cósmica</h1>
-                      <p data-aos="fade-right" data-aos-delay="600">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Culpa delectus provident vitae non ab labore,
-                        nam asperiores repellendus at rerum repudiandae atque soluta. Assumenda quos
-                        excepturi saepe dolorum, architecto repellendus!
-                      </p>
-                    </div>
+                <div className="swiper-slide slide-content d-flex align-items-center">
+                  <div className="single-slide">
+                    <h1 data-aos="fade-right" data-aos-delay="200">Cósmica</h1>
+                    <p data-aos="fade-right" data-aos-delay="600">Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Culpa delectus provident vitae non ab labore,
+                      nam asperiores repellendus at rerum repudiandae atque soluta. Assumenda quos
+                      excepturi saepe dolorum, architecto repellendus!
+                    </p>
                   </div>
                 </div>
               </div>
@@ -71,7 +69,7 @@ export default function HomePage() {
         </div>
       </section>
 
-    </div>
+    </>
 
   )
 }

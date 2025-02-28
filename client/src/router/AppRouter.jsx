@@ -11,11 +11,13 @@ export const AppRouter = () => {
   return (
   <BrowserRouter>
     <Header />
+    
     <Routes>
       
       <Route exact path="/" element={<HomePage />} /> 
       <Route exact path="register" element={<Register />} />
       <Route exact path="/login" element={<Login />} />
+      
     </Routes>
     <Footer />
   </BrowserRouter>

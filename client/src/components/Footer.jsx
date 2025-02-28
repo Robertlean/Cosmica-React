@@ -14,7 +14,7 @@ export default function () {
                   <i className="fa fa-envelope-o"></i>
                   <div className="media-body ml-3">
                     <h6>¿Ténes alguna pregunta?</h6>
-                    <Link to="tarotcosmica@gmail.com">tarotcosmica@gmail.com</Link>
+                    <Link to=".tarotcosmica@gmail.com">tarotcosmica@gmail.com</Link>
                   </div>
                 </div>
                 <div className="media">
@@ -85,12 +85,12 @@ export default function () {
             <div className="col-md-6 col-xl-4">
               <div className="single-widget tags-widget" data-aos="fade-up" data-aos-delay="800">
                 <h6 className="widget-tiltle">Tags populares</h6>
-                <a href="#">Cancer</a>
-                <a href="#">Meme</a>
-                <a href="#">amor</a>
-                <a href="#">Piscis</a>
-                <a href="#">Geminis</a>
-                <a href="#">marte</a>
+                <Link to="#">Cancer</Link>
+                <Link to="#">Meme</Link>
+                <Link to="#">amor</Link>
+                <Link to="#">Piscis</Link>
+                <Link to="#">Geminis</Link>
+                <Link to="#">marte</Link>
               </div>
               <div className="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
                 <h6 className="widget-tiltle">Suscribite</h6>
